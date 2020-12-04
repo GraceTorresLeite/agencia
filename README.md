@@ -4,4 +4,4 @@
 |------------|----------------------------|-------------------------|
 |Bootstrap   |práticas com (carousel)     |melhor engajamento       |
 
-### [Protótipo inicial](https://github.com/GraceTorresLeite/agencia/blob/gh-pages/index.html)
+### [Protótipo inicial](https://github.com/GraceTorresLeite/agencia/index.html)
