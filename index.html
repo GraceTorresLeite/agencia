@@ -32,6 +32,100 @@
     <!--https://pixelcog.github.io/parallax.js/-->
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 </head>
+<main>
+    <!--container fluid ocupa a página toda-->
+    <div class="container-fluid">
+        <div id="mainSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <!--data-target pega o id / data slide to pega o numero do slaide-->
+                <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#mainSlider" data-slide-to="1"></li>
+                <li data-target="#mainSlider" data-slide-to="2"></li>
+            </ol>
+            <!--conteudo dos slides em outra div-->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <!--d-block w-100 vem do boostrap / define largura 100%-->
+                    <img src="img/banner1.png" class="d-block w-100" alt="Projetos de e-commerce">
+                    <!--div para os textos deste carrossel-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Quer criar um e-commerce?</h2>
+                        <p>Conte conosco, temos mais de 30 lojas.</p>
+                        <a href="#" class="main-btn">Ver portifólio</a>
+                    </div>
+                </div>
+
+                <!--div para as outras páginas dos slides/ lembrar de tirar o active-->
+                <!--slide 2-->
+
+                <div class="carousel-item">
+                    <!--d-block w-100 vem do boostrap / define largura 100%-->
+                    <img src="img/banner2.png" class="d-block w-100" alt="Engenharia de Software">
+                    <!--div para os textos deste carrossel-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Quer tirar o projeto do papel?</h2>
+                        <p>Let´s Go!</p>
+                        <a href="#" class="main-btn">Entre em contato</a>
+                    </div>
+                </div>
+
+                <!--slide 3-->
+
+                <div class="carousel-item">
+                    <!--d-block w-100 vem do boostrap / define largura 100%-->
+                    <img src="img/banner3.png" class="d-block w-100" alt="Manutenção de Software">
+                    <!--div para os textos deste carrossel-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Precisa de manutenção?</h2>
+                        <p>Conte conosco, temos pessoal capacitado.</p>
+                        <a href="#" class="main-btn">Fale conosco</a>
+                    </div>
+                </div>
+            </div>
+            <!--termina as divs com os slides(tudo dentro da div inner)-->
+
+            <!--fazer as setinhas-->
+            <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
+                <!--icone de voltar-->
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <!--escreverndo legenda-->
+                <span class="sr-only">Previous</span>
+            </a>
+            <!--seta de próximo-->
+            <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
+                <!--icone de voltar-->
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <!--escreverndo legenda-->
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--criando outro container sobre a empresa-->
+        <div id="about-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Sobre HDC Agency</h3>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="img/agencia.jpg" alt="Agência HDC">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="about-title">Uma Agência do futuro</h3>
+                        <p>coloque qualquer texto</p>
+                        <p>quantas linhas for necessário</p>
+                        <ul id="about-list">
+                            <li><i class="fas fa-check"></i> Utilização de Machine Learning</li>
+                            <li><i class="fas fa-check"></i> Layout responsivo</li>
+                            <li><i class="fas fa-check"></i> Sistema de pagamento próprio</li>
+                            <li><i class="fas fa-check"></i> Tecnologia de ponta</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 
 <body>
     <header>
